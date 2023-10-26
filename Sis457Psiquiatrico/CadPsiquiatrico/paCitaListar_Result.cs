@@ -18,5 +18,8 @@ namespace CadPsiquiatrico
         public System.TimeSpan hora { get; set; }
         public string tratamiento { get; set; }
         public decimal pago { get; set; }
+        public string usuarioRegistro { get; set; }
+        public System.DateTime fechaRegistro { get; set; }
+        public short estado { get; set; }
     }
 }

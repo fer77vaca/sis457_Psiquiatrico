@@ -17,5 +17,8 @@ namespace CadPsiquiatrico
         public System.DateTime fechaReceta { get; set; }
         public decimal cantidadPrescrita { get; set; }
         public string InstruccionesUso { get; set; }
+        public string usuarioRegistro { get; set; }
+        public System.DateTime fechaRegistro { get; set; }
+        public short estado { get; set; }
     }
 }

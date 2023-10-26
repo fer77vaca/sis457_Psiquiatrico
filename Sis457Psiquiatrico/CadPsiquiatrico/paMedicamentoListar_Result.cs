@@ -17,5 +17,8 @@ namespace CadPsiquiatrico
         public string nombreMedicamento { get; set; }
         public string dosificacion { get; set; }
         public decimal precio { get; set; }
+        public string usuarioRegistro { get; set; }
+        public System.DateTime fechaRegistro { get; set; }
+        public short estado { get; set; }
     }
 }

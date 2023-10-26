@@ -87,6 +87,9 @@
           <ScalarProperty Name="hora" ColumnName="hora" />
           <ScalarProperty Name="tratamiento" ColumnName="tratamiento" />
           <ScalarProperty Name="pago" ColumnName="pago" />
+          <ScalarProperty Name="usuarioRegistro" ColumnName="usuarioRegistro" />
+          <ScalarProperty Name="fechaRegistro" ColumnName="fechaRegistro" />
+          <ScalarProperty Name="estado" ColumnName="estado" />
         </ComplexTypeMapping>
       </ResultMapping>
     </FunctionImportMapping>
@@ -97,6 +100,9 @@
           <ScalarProperty Name="nombreMedicamento" ColumnName="nombreMedicamento" />
           <ScalarProperty Name="dosificacion" ColumnName="dosificacion" />
           <ScalarProperty Name="precio" ColumnName="precio" />
+          <ScalarProperty Name="usuarioRegistro" ColumnName="usuarioRegistro" />
+          <ScalarProperty Name="fechaRegistro" ColumnName="fechaRegistro" />
+          <ScalarProperty Name="estado" ColumnName="estado" />
         </ComplexTypeMapping>
       </ResultMapping>
     </FunctionImportMapping>
@@ -112,6 +118,9 @@
           <ScalarProperty Name="telefono" ColumnName="telefono" />
           <ScalarProperty Name="histroialMedico" ColumnName="histroialMedico" />
           <ScalarProperty Name="tratamiento" ColumnName="tratamiento" />
+          <ScalarProperty Name="usuarioRegistro" ColumnName="usuarioRegistro" />
+          <ScalarProperty Name="fechaRegistro" ColumnName="fechaRegistro" />
+          <ScalarProperty Name="estado" ColumnName="estado" />
         </ComplexTypeMapping>
       </ResultMapping>
     </FunctionImportMapping>
@@ -122,6 +131,9 @@
           <ScalarProperty Name="fechaReceta" ColumnName="fechaReceta" />
           <ScalarProperty Name="cantidadPrescrita" ColumnName="cantidadPrescrita" />
           <ScalarProperty Name="InstruccionesUso" ColumnName="InstruccionesUso" />
+          <ScalarProperty Name="usuarioRegistro" ColumnName="usuarioRegistro" />
+          <ScalarProperty Name="fechaRegistro" ColumnName="fechaRegistro" />
+          <ScalarProperty Name="estado" ColumnName="estado" />
         </ComplexTypeMapping>
       </ResultMapping>
     </FunctionImportMapping>
@@ -135,6 +147,9 @@
           <ScalarProperty Name="telefono" ColumnName="telefono" />
           <ScalarProperty Name="direccionClinica" ColumnName="direccionClinica" />
           <ScalarProperty Name="horarioTrabajo" ColumnName="horarioTrabajo" />
+          <ScalarProperty Name="usuarioRegistro" ColumnName="usuarioRegistro" />
+          <ScalarProperty Name="fechaRegistro" ColumnName="fechaRegistro" />
+          <ScalarProperty Name="estado" ColumnName="estado" />
         </ComplexTypeMapping>
       </ResultMapping>
     </FunctionImportMapping>

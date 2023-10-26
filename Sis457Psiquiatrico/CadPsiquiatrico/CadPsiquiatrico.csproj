@@ -4,7 +4,7 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{9132CEEE-25E6-4B8E-AC25-A57B0E3F13EF}</ProjectGuid>
+    <ProjectGuid>{3A1BBAD1-6566-4213-802B-FB4C1CB1074F}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>CadPsiquiatrico</RootNamespace>

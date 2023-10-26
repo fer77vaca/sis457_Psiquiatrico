@@ -56,14 +56,14 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\CadPsiquiatrico\CadPsiquiatrico.csproj">
-      <Project>{9132ceee-25e6-4b8e-ac25-a57b0e3f13ef}</Project>
-      <Name>CadPsiquiatrico</Name>
-    </ProjectReference>
-  </ItemGroup>
-  <ItemGroup>
     <None Include="App.config" />
     <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\CadPsiquiatrico\CadPsiquiatrico.csproj">
+      <Project>{3a1bbad1-6566-4213-802b-fb4c1cb1074f}</Project>
+      <Name>CadPsiquiatrico</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

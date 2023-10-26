@@ -173,12 +173,18 @@
     <Property Type="Time" Name="hora" Nullable="false" />
     <Property Type="String" Name="tratamiento" Nullable="false" MaxLength="250" />
     <Property Type="Decimal" Name="pago" Nullable="false" Precision="18" Scale="0" />
+    <Property Type="String" Name="usuarioRegistro" Nullable="false" MaxLength="50" />
+    <Property Type="DateTime" Name="fechaRegistro" Nullable="false" Precision="23" />
+    <Property Type="Int16" Name="estado" Nullable="false" />
   </ComplexType>
   <ComplexType Name="paMedicamentoListar_Result">
     <Property Type="Int32" Name="id" Nullable="false" />
     <Property Type="String" Name="nombreMedicamento" Nullable="false" MaxLength="250" />
     <Property Type="String" Name="dosificacion" Nullable="false" MaxLength="250" />
     <Property Type="Decimal" Name="precio" Nullable="false" Precision="18" Scale="0" />
+    <Property Type="String" Name="usuarioRegistro" Nullable="false" MaxLength="50" />
+    <Property Type="DateTime" Name="fechaRegistro" Nullable="false" Precision="23" />
+    <Property Type="Int16" Name="estado" Nullable="false" />
   </ComplexType>
   <ComplexType Name="paPacienteListar_Result">
     <Property Type="Int32" Name="id" Nullable="false" />
@@ -190,12 +196,18 @@
     <Property Type="String" Name="telefono" Nullable="true" MaxLength="20" />
     <Property Type="String" Name="histroialMedico" Nullable="false" MaxLength="250" />
     <Property Type="String" Name="tratamiento" Nullable="true" MaxLength="250" />
+    <Property Type="String" Name="usuarioRegistro" Nullable="false" MaxLength="50" />
+    <Property Type="DateTime" Name="fechaRegistro" Nullable="false" Precision="23" />
+    <Property Type="Int16" Name="estado" Nullable="false" />
   </ComplexType>
   <ComplexType Name="paRecetaListar_Result">
     <Property Type="Int32" Name="id" Nullable="false" />
     <Property Type="DateTime" Name="fechaReceta" Nullable="false" />
     <Property Type="Decimal" Name="cantidadPrescrita" Nullable="false" Precision="18" Scale="0" />
     <Property Type="String" Name="InstruccionesUso" Nullable="false" MaxLength="250" />
+    <Property Type="String" Name="usuarioRegistro" Nullable="false" MaxLength="50" />
+    <Property Type="DateTime" Name="fechaRegistro" Nullable="false" Precision="23" />
+    <Property Type="Int16" Name="estado" Nullable="false" />
   </ComplexType>
   <ComplexType Name="paTerapeutaListar_Result">
     <Property Type="Int32" Name="id" Nullable="false" />
@@ -205,5 +217,8 @@
     <Property Type="String" Name="telefono" Nullable="true" MaxLength="20" />
     <Property Type="String" Name="direccionClinica" Nullable="false" MaxLength="250" />
     <Property Type="String" Name="horarioTrabajo" Nullable="false" MaxLength="100" />
+    <Property Type="String" Name="usuarioRegistro" Nullable="false" MaxLength="50" />
+    <Property Type="DateTime" Name="fechaRegistro" Nullable="false" Precision="23" />
+    <Property Type="Int16" Name="estado" Nullable="false" />
   </ComplexType>
 </Schema>

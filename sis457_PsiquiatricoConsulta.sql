@@ -93,7 +93,7 @@ ALTER TABLE Medicamento ADD estado SMALLINT NOT NULL DEFAULT 1; -- -1: Eliminaci
 -- Terapeuta
 CREATE PROC paTerapeutaListar @parametro VARCHAR(50)
 AS
-  SELECT id, nombre, apellido, especialidad, telefono, direccionClinica, horarioTrabajo
+  SELECT id, nombre, apellido, especialidad, telefono, direccionClinica, horarioTrabajo, usuarioRegistro, fechaRegistro, estado
   FROM Terapeuta
   WHERE estado<>-1 AND nombre LIKE '%'+REPLACE(@parametro,' ','%')+'%';
 
@@ -103,7 +103,7 @@ EXEC paTerapeutaListar 'Juan';
 -- Cita
 CREATE PROC paCitaListar @parametro VARCHAR(50)
 AS
-  SELECT id, fecha, hora, tratamiento, pago
+  SELECT id, fecha, hora, tratamiento, pago, usuarioRegistro, fechaRegistro, estado
   FROM Cita
   WHERE estado<>-1 AND tratamiento LIKE '%'+REPLACE(@parametro,' ','%')+'%';
 EXEC paCitaListar 'Limpieza dental';
@@ -112,7 +112,7 @@ EXEC paCitaListar 'Limpieza dental';
 -- Paciente
 CREATE PROC paPacienteListar @parametro VARCHAR(50)
 AS
-  SELECT id, nombre, apellido, fechaNacimiento, genero, direccion, telefono, histroialMedico, tratamiento
+  SELECT id, nombre, apellido, fechaNacimiento, genero, direccion, telefono, histroialMedico, tratamiento, usuarioRegistro, fechaRegistro, estado
   FROM Paciente
   WHERE estado<>-1 AND nombre LIKE '%'+REPLACE(@parametro,' ','%')+'%';
 
@@ -122,7 +122,7 @@ EXEC paPacienteListar 'María';
 -- Receta
 CREATE PROC paRecetaListar @parametro VARCHAR(50)
 AS
-  SELECT id, fechaReceta, cantidadPrescrita, InstruccionesUso
+  SELECT id, fechaReceta, cantidadPrescrita, InstruccionesUso, usuarioRegistro, fechaRegistro, estado
   FROM Receta
   WHERE estado<>-1 AND InstruccionesUso LIKE '%'+REPLACE(@parametro,' ','%')+'%';
 
@@ -132,7 +132,7 @@ EXEC paRecetaListar 'Paracetamol';
 -- Medicamento
 CREATE PROC paMedicamentoListar @parametro VARCHAR(50)
 AS
-  SELECT id, nombreMedicamento, dosificacion, precio
+  SELECT id, nombreMedicamento, dosificacion, precio, usuarioRegistro, fechaRegistro, estado
   FROM Medicamento
   WHERE estado<>-1 AND nombreMedicamento LIKE '%'+REPLACE(@parametro,' ','%')+'%';
 

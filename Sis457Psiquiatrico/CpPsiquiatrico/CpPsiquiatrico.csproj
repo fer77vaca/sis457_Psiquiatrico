@@ -75,6 +75,7 @@
     <Compile Include="Properties\Resources.Designer.cs">
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
     </Compile>
     <None Include="packages.config" />
     <None Include="Properties\Settings.settings">
@@ -92,13 +93,34 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\CadPsiquiatrico\CadPsiquiatrico.csproj">
-      <Project>{9132ceee-25e6-4b8e-ac25-a57b0e3f13ef}</Project>
+      <Project>{3a1bbad1-6566-4213-802b-fb4c1cb1074f}</Project>
       <Name>CadPsiquiatrico</Name>
     </ProjectReference>
     <ProjectReference Include="..\ClnPsiquiatrico\ClnPsiquiatrico.csproj">
       <Project>{4f25ef71-7777-40fa-85b9-90bafc14aafb}</Project>
       <Name>ClnPsiquiatrico</Name>
     </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\new.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\edit.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\delete.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\close.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\save.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cancel.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\search.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">

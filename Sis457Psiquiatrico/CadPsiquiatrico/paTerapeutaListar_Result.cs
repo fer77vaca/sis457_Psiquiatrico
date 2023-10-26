@@ -20,5 +20,8 @@ namespace CadPsiquiatrico
         public string telefono { get; set; }
         public string direccionClinica { get; set; }
         public string horarioTrabajo { get; set; }
+        public string usuarioRegistro { get; set; }
+        public System.DateTime fechaRegistro { get; set; }
+        public short estado { get; set; }
     }
 }
