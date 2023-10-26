@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CpPsiquiatrico", "CpPsiquia
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CadPsiquiatrico", "CadPsiquiatrico\CadPsiquiatrico.csproj", "{9132CEEE-25E6-4B8E-AC25-A57B0E3F13EF}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ClnPsiquiatrico", "ClnPsiquiatrico\ClnPsiquiatrico.csproj", "{4F25EF71-7777-40FA-85B9-90BAFC14AAFB}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{9132CEEE-25E6-4B8E-AC25-A57B0E3F13EF}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9132CEEE-25E6-4B8E-AC25-A57B0E3F13EF}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9132CEEE-25E6-4B8E-AC25-A57B0E3F13EF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4F25EF71-7777-40FA-85B9-90BAFC14AAFB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4F25EF71-7777-40FA-85B9-90BAFC14AAFB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4F25EF71-7777-40FA-85B9-90BAFC14AAFB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4F25EF71-7777-40FA-85B9-90BAFC14AAFB}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
